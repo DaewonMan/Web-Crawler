@@ -1,0 +1,30 @@
+{
+	"webpage" : "https://news.un.org/",
+	"categories" : [
+		{
+			"category" : "#block-views-top-stories-headlines > div > div.view-footer > div > a"
+		}
+	],
+	"post" : "h1.story-title a",
+	"nextPage" : "div.text-center ul.pagination li a",
+	"nextPageParam" : [
+		"?page="
+	],
+	"data" : [
+		{
+			"title" : "#block-views-story-story-top-block > div > div.view-content > div > div > section > h1",
+			"date" : "div.field-item.even span.date-display-single",
+			"content" : [
+				"div.field-items div.field-item.even p"
+			]
+		}
+	],
+	"hashTag" : "#UN#News",
+	"did" : 70,
+	"cid" : 0,
+	"aid" : 1,
+	"fileExt" : "json",
+	"fileType" : "N",
+	"preHandlingType" : "CE_TEXT-EM_LIST-EM_DRANK-EK_RANK-EL_LIST-EL_RANK-EP_LIST-EP_FRANK-ET_LIST-AN_TEXT-PL_TEXT",
+	"basicStoragePath" : "C://kdw/"
+}

@@ -1,0 +1,30 @@
+{
+	"webpage" : "https://openknowledge.worldbank.org/",
+	"categories" : [
+		{
+			"category" : "#aspect_discovery_SiteRecentSubmissions_p_recent-submission-view-more > a"
+		}
+	],
+	"post" : "li.ds-artifact-item div.item-wrapper.clearfix",
+	"nextPage" : "",
+	"nextPageParam" : [
+		"?offset="
+	],
+	"data" : [
+		{
+			"title" : "#main > div > div > div.col-sm-9.col-md-10.main-content > div > h2",
+			"date" : "#aspect_artifactbrowser_ItemViewer_div_item-view > div > div.row > div.col-sm-4 > div > div:nth-child(5) > div",
+			"content" : [
+				"#aspect_artifactbrowser_ItemViewer_div_item-view > div > div.row > div.col-sm-4 > div > div:nth-child(4) > div:nth-child(3) > a"
+			]
+		}
+	],
+	"hashTag" : "#OPEN#KNOWLEDGE#WORLD#BANK#ORG",
+	"did" : 71,
+	"cid" : 0,
+	"aid" : 1,
+	"fileExt" : "pdf",
+	"fileType" : "N",
+	"preHandlingType" : "CE_TEXT-EM_LIST-EM_DRANK-EK_RANK-EL_LIST-EL_RANK-EP_LIST-EP_FRANK-ET_LIST-AN_TEXT-PL_TEXT",
+	"basicStoragePath" : "C://kdw/"
+}

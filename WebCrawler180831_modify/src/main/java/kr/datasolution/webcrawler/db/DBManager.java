@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class DBManager {
 	public static Connection connect() throws SQLException {
-		String url = "jdbc:mysql://192.168.210.146:3306/DataLake_Proto_Test?characterEncoding=UTF-8&serverTimezone=UTC&autoReconnect=true";
-		return DriverManager.getConnection(url, "root", "Opensns!#@$");
+		String url = "jdbc:mysql:///DataLake_Proto_Test?characterEncoding=UTF-8&serverTimezone=UTC&autoReconnect=true";
+		return DriverManager.getConnection(url, "root", "");
 	}
 	
 	public static void destroy(Connection con, PreparedStatement pstmt, ResultSet rs) {

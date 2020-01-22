@@ -1,9 +1,9 @@
-package kr.datasolution.webcrawler.file;
+package com.dwm.webcrawler.file;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import kr.datasolution.webcrawler.crawl.CrawledData;
+import com.dwm.webcrawler.crawl.CrawledData;
 
 public class DataMerger {
 	public static ArrayList<CrawledData> pickOutNewDatas(HashMap<String, CrawledData> old_datas, ArrayList<CrawledData> datas) {

@@ -1,13 +1,12 @@
-package kr.datasolution.webcrawler.crawl;
+package com.dwm.webcrawler.crawl;
 
 import java.util.ArrayList;
 
+import com.dwm.webcrawler.json.JsonData;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.DomNode;
 import com.gargoylesoftware.htmlunit.html.DomNodeList;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-
-import kr.datasolution.webcrawler.json.JsonData;
 
 public class WebCrawler {
 	public static ArrayList<CrawledData> addCrawledDataToList(JsonData jsonInfo) throws Exception {

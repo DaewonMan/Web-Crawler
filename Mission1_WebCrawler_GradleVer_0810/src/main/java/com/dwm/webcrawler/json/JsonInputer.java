@@ -1,4 +1,4 @@
-package kr.datasolution.webcrawler.json;
+package com.dwm.webcrawler.json;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

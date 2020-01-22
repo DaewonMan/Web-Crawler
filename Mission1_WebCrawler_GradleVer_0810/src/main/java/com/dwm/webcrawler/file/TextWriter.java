@@ -1,4 +1,4 @@
-package kr.datasolution.webcrawler.file;
+package com.dwm.webcrawler.file;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-import kr.datasolution.webcrawler.crawl.CrawledData;
+import com.dwm.webcrawler.crawl.CrawledData;
 
 public class TextWriter {
 	public static void writeDataToText(ArrayList<CrawledData> datas, String storage_path) throws Exception {

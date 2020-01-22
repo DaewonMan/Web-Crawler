@@ -1,15 +1,15 @@
-package kr.datasolution.webcrawler.main;
+package com.dwm.webcrawler.main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import kr.datasolution.webcrawler.crawl.CrawledData;
-import kr.datasolution.webcrawler.crawl.WebCrawler;
-import kr.datasolution.webcrawler.file.DataMerger;
-import kr.datasolution.webcrawler.file.FileConverter;
-import kr.datasolution.webcrawler.file.TextWriter;
-import kr.datasolution.webcrawler.json.JsonData;
-import kr.datasolution.webcrawler.json.JsonInputer;
+import com.dwm.webcrawler.crawl.CrawledData;
+import com.dwm.webcrawler.crawl.WebCrawler;
+import com.dwm.webcrawler.file.DataMerger;
+import com.dwm.webcrawler.file.FileConverter;
+import com.dwm.webcrawler.file.TextWriter;
+import com.dwm.webcrawler.json.JsonData;
+import com.dwm.webcrawler.json.JsonInputer;
 
 public class WCMain {
 	public static void main(String[] args) {

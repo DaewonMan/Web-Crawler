@@ -1,4 +1,4 @@
-package kr.datasolution.webcrawler.json;
+package com.dwm.webcrawler.json;
 
 import lombok.AccessLevel;
 import lombok.Getter;

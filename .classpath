@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Mission1_WebCrawler_GradleVer_0810/src/main/java"/>
+	<classpathentry kind="src" path="Mission1_WebCrawler_GradleVer_0810/src/test/java"/>
+	<classpathentry kind="src" path="Mission1_WebCrawler_MavenVer_0810/src/main/java"/>
+	<classpathentry kind="src" path="Mission1_WebCrawler/src"/>
+	<classpathentry kind="src" path="Mission1_WebCrawler2_0803/src/main/java"/>
+	<classpathentry kind="src" path="splitmodule/src/main/java"/>
+	<classpathentry kind="src" path="StructuredData_WebCrawler/src/main/java"/>
+	<classpathentry kind="src" path="UnStructuredData_WebCrawler/src/main/java"/>
+	<classpathentry kind="src" path="WebCrawler180831_all/src/main/java"/>
+	<classpathentry kind="src" path="WebCrawler180831_modify/src/main/java"/>
+	<classpathentry kind="src" path="WebCrawler180831_simple/src/main/java"/>
+	<classpathentry kind="lib" path="Mission1_WebCrawler_GradleVer_0810/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="Mission1_WebCrawler/bin"/>
+</classpath>
